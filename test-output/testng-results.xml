@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-11T16:07:23 IST" name="Default suite" finished-at="2022-04-11T16:08:12 IST" duration-ms="48788">
+    <groups>
+    </groups>
+    <test started-at="2022-04-11T16:07:23 IST" name="Default test" finished-at="2022-04-11T16:08:12 IST" duration-ms="48788">
+      <class name="script.TeseCase01">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.TeseCase01@353d0772]" started-at="2022-04-11T16:07:23 IST" name="openApp" finished-at="2022-04-11T16:08:03 IST" duration-ms="39689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="LoginScript()[pri:0, instance:script.TeseCase01@353d0772]" started-at="2022-04-11T16:08:03 IST" name="LoginScript" finished-at="2022-04-11T16:08:10 IST" duration-ms="7627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScript -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TeseCase01@353d0772]" started-at="2022-04-11T16:08:10 IST" name="closeApp" finished-at="2022-04-11T16:08:12 IST" duration-ms="1405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginScript status=SUCCESS method=TeseCase01.LoginScript()[pri:0, instance:script.TeseCase01@353d0772] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.TeseCase01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
